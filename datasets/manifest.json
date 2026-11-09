@@ -1,0 +1,50 @@
+[
+  {
+    "path": "datasets/osmFISH/adata.h5ad",
+    "bytes": 961914,
+    "sha256": "fb454615264e99de4b890978f5a94721ed5e805e3134377d882ea2c3981ccaa3",
+    "source_archive": "osmFISH Mouse somatosensory cortex.zip"
+  },
+  {
+    "path": "datasets/slideseq/MOB_Stereo.h5ad",
+    "bytes": 57699984,
+    "sha256": "a0d4659dfa5b8ece515ecd8feba79b2d822caf383ee749bcecf1993406635bd2",
+    "source_archive": "Stereoseq Mouse olfactory bulb.zip"
+  },
+  {
+    "path": "datasets/slideseq/MOB_Slide.h5ad",
+    "bytes": 18360860,
+    "sha256": "a19833c3cc8466e9e887cf4c5909edbefb43ab05ce276a0d822d97499a91e73d",
+    "source_archive": "SlideseqV2 Mouse olfactory bulb.zip"
+  },
+  {
+    "path": "datasets/merfish/hypothalamus-0.04.h5ad",
+    "bytes": 1410808,
+    "sha256": "fe5835e448fbc675bd8da9a5114d233eb21a39121b8f349d5f255bac2adeff53",
+    "source_archive": "MERFISH Mouse hypothalamic preoptic.zip"
+  },
+  {
+    "path": "datasets/merfish/hypothalamus-0.09.h5ad",
+    "bytes": 1450242,
+    "sha256": "a0ec9c52a7fd4f2eee4f254786e690cd08d5ed2707b57912aff8f279f0d02e0c",
+    "source_archive": "MERFISH Mouse hypothalamic preoptic.zip"
+  },
+  {
+    "path": "datasets/merfish/hypothalamus-0.14.h5ad",
+    "bytes": 1506419,
+    "sha256": "3d0472ee06ab676be2971ead1006a736f51c212e6d2be82a9f05cf83e28bd7fd",
+    "source_archive": "MERFISH Mouse hypothalamic preoptic.zip"
+  },
+  {
+    "path": "datasets/merfish/hypothalamus-0.19.h5ad",
+    "bytes": 1441777,
+    "sha256": "fb71920141957fa1434d37f90d1fafdb83c8d89d1efe668344232f8077ec6a35",
+    "source_archive": "MERFISH Mouse hypothalamic preoptic.zip"
+  },
+  {
+    "path": "datasets/merfish/hypothalamus-0.24.h5ad",
+    "bytes": 1403753,
+    "sha256": "56e621f917ef676a5c76f523216ba1887372754a5895b7a3a18622552f0aed0b",
+    "source_archive": "MERFISH Mouse hypothalamic preoptic.zip"
+  }
+]
