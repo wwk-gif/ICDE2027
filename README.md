@@ -47,9 +47,7 @@ embedding, reconstruction = net.process()
 
 Prepare `adata.obsm["X_pca"]` with the configured input features and `adata.obs["slice_id"]` with consecutive integer section IDs. Build `edge_index` with the supplied graph-construction functions. On osmFISH the feature slot contains the scaled targeted-panel features and one section uses ID 0.
 
-`SC_BC_pipeline` reads both `train.topk_neighs` and `train.topk_neighs_inter`. The supplied YAML files do not contain the latter key. The single-section osmFISH notebook explicitly uses zero cross-section neighbors. For joint fitting, set `topk_neighs_inter` and any run-specific preprocessing/graph overrides to the executed experiment configuration before starting training.
 
-Launch Jupyter from this directory and open `Reproduction_Notebook/osmFISH.ipynb`. This notebook retains the source preprocessing and analyses, with portable imports/paths, cleared outputs, and the author-selected `SC_BC_pipeline` entry point.
 
 ## Datasets
 
