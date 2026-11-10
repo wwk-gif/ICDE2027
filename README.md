@@ -1,10 +1,10 @@
-# ICDE2027 — MAFWT
+# ICDE2027 — MAGNet
 
-Code and input datasets for **MAFWT: Coordinated Representation Learning for Heterogeneous Spatial Transcriptomics Integration**.
+Code and input datasets for **MAGNet: Coordinated Representation Learning for Heterogeneous Spatial Transcriptomics Integration**.
 
 ## Contents
 
-- `MAFWT/`: model, training pipelines, section agents, semantic sampler, graph construction, alignment, clustering and evaluation.
+- `MAGNet/`: model, training pipelines, section agents, semantic sampler, graph construction, alignment, clustering and evaluation.
 - `Config/`: osmFISH, olfactory-bulb (`MOB.yaml`) and MERFISH configurations.
 - `datasets/`: the eight H5AD input files used for these three tasks.
 - `Reproduction_Notebook/osmFISH.ipynb`: portable osmFISH analysis notebook.
@@ -28,10 +28,10 @@ Configure `R_HOME` for your own installation if R is not on the system path. The
 
 ## Training entry point
 
-Use `MAFWT.SC_BC_pipeline` for the ICDE workload. The existing API spells its training method `trian()`:
+Use `MAGNet.SC_BC_pipeline` for the ICDE workload. The existing API spells its training method `trian()`:
 
 ```python
-import MAFWT as TOOLS
+import MAGNet as TOOLS
 
 net = TOOLS.SC_BC_pipeline(
     adata,
@@ -61,4 +61,4 @@ Launch Jupyter from this directory and open `Reproduction_Notebook/osmFISH.ipynb
 
 `datasets/manifest.json` records file sizes, SHA-256 checksums and the names of the source archives. The largest file is approximately 57.7 MB. Download the repository as a ZIP or clone it to obtain the datasets together with the code.
 
-The source module names include historical identifiers such as `MACWT_model`; the public package import is `MAFWT`. The core Python modules and the supplied YAML configurations are copied byte-for-byte from the author's local MAFWT project. Packaging checks include Python syntax, notebook-cell syntax and dataset checksum validation. GPU training has not been rerun as part of this upload preparation.
+The source module names include historical identifiers such as `MACWT_model`; the public package import is `MAGNet`. The core Python modules and the supplied YAML configurations are copied byte-for-byte from the author's local MAGNet project. Packaging checks include Python syntax, notebook-cell syntax and dataset checksum validation. GPU training has not been rerun as part of this upload preparation.

@@ -1,5 +1,5 @@
 """
-Genuine Multi-Agent Reinforcement Learning Controller for MAFWT.
+Genuine Multi-Agent Reinforcement Learning Controller for MAGNet.
 
 Each slice has its own autonomous agent with:
   - A neural network policy (Actor) that maps observations → actions
